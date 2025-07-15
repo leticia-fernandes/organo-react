@@ -1,9 +1,11 @@
-import Banner from './components/Banner/Banner';
+import Banner from './components/Banner';
+import TextInput from './components/TextInput';
 
 function App() {
   return (
     <div>
       <Banner/>
+      <TextInput />
     </div>
   );
 }

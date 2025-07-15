@@ -4,11 +4,12 @@
   max-width: 100%;
   color: #fff;
   padding: 50px;
+}
 
-  h1 {
-    font-weight: 1000;
-  }
-  h2 {
-    font-weight: 300;
-  }
+.banner h1 {
+  font-weight: 1000;
+}
+
+.banner h2 {
+  font-weight: 300;
 }
