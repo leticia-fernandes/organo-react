@@ -1,0 +1,14 @@
+.banner {
+  background-color: #7d5adc;
+  text-align: center;
+  max-width: 100%;
+  color: #fff;
+  padding: 50px;
+
+  h1 {
+    font-weight: 1000;
+  }
+  h2 {
+    font-weight: 300;
+  }
+}
