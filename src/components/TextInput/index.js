@@ -1,10 +1,12 @@
 import "./TextInput.css";
 
-const TextInput = () => {
+const TextInput = (props) => {
+  const placeholderSufix = `${props.placeholder}...`
+
   return (
     <div className="text-input">
-      <label>Name</label>
-      <input placeholder="Type the name"/>
+      <label>{props.label}</label>
+      <input placeholder={placeholderSufix}/>
     </div>
   );
 };

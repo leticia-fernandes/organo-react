@@ -5,7 +5,9 @@ function App() {
   return (
     <div>
       <Banner/>
-      <TextInput />
+      <TextInput label="Name" placeholder="Type the name"/>
+      <TextInput label="Role" placeholder="Type the role"/>
+      <TextInput label="Image" placeholder="Type the image address"/>
     </div>
   );
 }
