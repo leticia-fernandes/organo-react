@@ -1,13 +1,11 @@
 import Banner from './components/Banner';
-import TextInput from './components/TextInput';
+import Form from './components/Form';
 
 function App() {
   return (
     <div>
       <Banner/>
-      <TextInput label="Name" placeholder="Type the name"/>
-      <TextInput label="Role" placeholder="Type the role"/>
-      <TextInput label="Image" placeholder="Type the image address"/>
+      <Form />
     </div>
   );
 }
