@@ -1,6 +1,7 @@
 import "./Form.css";
 import TextInput from "../TextInput";
 import List from "../List";
+import Button from "../Button";
 
 const Form = () => {
   const teams = [
@@ -19,6 +20,7 @@ const Form = () => {
         <TextInput label="Role" placeholder="Type the role"/>
         <TextInput label="Image" placeholder="Type the image address"/>
         <List label={"Team"} items={teams} />
+        <Button>Create Card</Button>
       </form>
     </section>
   );
