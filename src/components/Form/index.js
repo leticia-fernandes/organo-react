@@ -1,8 +1,16 @@
 import "./Form.css";
 import TextInput from "../TextInput";
+import List from "../List";
 
 const Form = () => {
+  const teams = [
+    'Back-end',
+    'Front-end',
+    'Mobile',
+    'DevOps',
+    'UX',
 
+  ];
   return (
     <section className="form">
       <form>
@@ -10,6 +18,7 @@ const Form = () => {
         <TextInput label="Name" placeholder="Type the name"/>
         <TextInput label="Role" placeholder="Type the role"/>
         <TextInput label="Image" placeholder="Type the image address"/>
+        <List label={"Team"} items={teams} />
       </form>
     </section>
   );
