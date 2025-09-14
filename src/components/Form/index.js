@@ -5,13 +5,6 @@ import Button from "../Button";
 import { useState } from "react";
 
 const Form = (props) => {
-  const teams = [
-    'Back-end',
-    'Front-end',
-    'Mobile',
-    'DevOps',
-    'UX',
-  ];
   const [name, setName] = useState('');
   const [role, setRole] = useState('');
   const [image, setImage] = useState('');
@@ -54,7 +47,7 @@ const Form = (props) => {
         <List
           required={true}
           label={"Team"}
-          items={teams}
+          items={props.teams}
           value={team}
           onChange={value => setTeam(value)}
         />
